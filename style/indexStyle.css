@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+}
+
+/*ESTILO DE MENU DE NAVEGACION*/
+
+#cabecera-option ul {
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cabecera-option ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#cabecera-option ul li:hover {
+    text-decoration: underline;
+}
+
+/*ESTILO DE LOGO Y BUSCADOR DE PAGINA*/
+
+#buscador {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#buscador img {
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#formBuscador input {
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: 1px gray solid;
+    padding-left: 10px;
+}
+
+#formBuscador button {
+    width: 80px;
+    height: 40px;
+    margin-right: 200px;
+}
+
+/*ESTILO MENU PRINCIPAL*/
+
+#menuPrincipal{
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#menuPrincipal ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menuPrincipal ul a{
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0.8;
+}
+
+#menuPrincipal ul a:hover{
+    opacity: 1;
+}
+
+#menuPrincipal ul li{
+    list-style-type: none;
+}
+
+/*ESTILO TABLA*/
+
+#contenedorProducto{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+#contenedorProducto h2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.producto{
+    display: block;
+    align-items: center;
+    height: 520px;
+    width: 392px;
+}
+
+.tituloProducto{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotoProducto{
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.agregarCarro{
+    margin-left: 15px;
+    padding: 8px;
+    border: 1px black solid;
+    border-radius: 6    px;
+}
+
+.precioAntesProducto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    opacity: 0.6;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.precioProducto{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.producto a{
+    margin-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.producto a:hover{
+    opacity: 0.4;
+}
+
+/*ESTILO ACERTA TIENDA*/
+
+#acercaTienda{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#acercaTienda img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*PIE DE PAGINA*/
+
+#footer{
+    background-color: #f4f5f5;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Open Sans",sans-serif;
+}
+
+#footer div{
+    margin: 20px;
+}
+
+#footer div h5{
+    margin-bottom: 10px;
+    font-size: 100%;
+}
+
+#footer div ul li{
+    list-style-type: none;
+}
+
+#footer div ul a,p{
+    font-size: 90%;
+    text-decoration: none;
+    color: #000;
+}
+
+#footer div ul a:hover{
+    text-decoration: underline;
+}
+
+#footerRegistro button{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#footerRegistro button a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px 20px 30px;
+}
+
+#derechos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#derechos p{
+    font-family: "Open Sans",sans-serif;
+}
